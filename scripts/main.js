@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'https://github.com/Myridin/Myridin.github.io/blob/master/images/firefox-icon.png') {
-      myImage.setAttribute('src', 'https://github.com/Myridin/Myridin.github.io/blob/master/Images/firefox2.png');
+    if (mySrc === 'Images/firefox-icon.png') {
+      myImage.setAttribute('src', 'Images/firefox2.png');
     } else {
-      myImage.setAttribute('src', 'https://github.com/Myridin/Myridin.github.io/blob/master/Images/firefox-icon.png');
+      myImage.setAttribute('src', 'Images/firefox-icon.png');
     }
 });
 
